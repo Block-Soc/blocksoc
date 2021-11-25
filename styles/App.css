@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about {
+  padding: 0 1rem;
+  padding-bottom: 4rem;
+  background-color: #f8f9fa;
+}
+
+.about p,
+.about h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.about .about-tiles-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.about .about-tiles-container .about-tiles {
+  margin: 1rem;
+  text-align: center;
+}
+
+.about .about-tiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #d2d3d7;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-header {
+  text-align: center;
+  padding: 2rem;
+  color: #2a274b;
+}
+
+.text-header h3 {
+  font-size: calc(clamp(1.25rem, 1.1rem + 0.71vw, 1.75rem));
+  margin: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .education-container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .Events {
+    padding-top: 0;
+    padding-bottom: 6rem;
+  }
+  .Events .EventCarousel {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  .education-container .article-list {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .select {
+    border-radius: 10px;
+  }
+  .text-header {
+    padding: 4rem 0rem;
+  }
+  .text-header h3 {
+    font-size: calc(clamp(1.25rem, 1.1rem + 0.71vw, 1.75rem));
+  }
+}
+
+.header img {
+  max-width: 100px;
+}
+
+@media screen and (min-width: 1200px) {
+  .about {
+    padding: 0 6rem;
+    padding-bottom: 4rem;
+  }
+  .about .about-tiles {
+    padding: 4rem 2rem;
+  }
+}
+
+.Temp {
+  height: 100vh;
+  color: #fff;
+  background-color: #2a274b;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  place-items: center;
+  line-height: 2rem;
+  padding: 0rem 1rem;
+}
+
+.Temp #sign-up-button {
+  -webkit-animation: welcomeFade 2s;
+          animation: welcomeFade 2s;
+}
+
+.Temp img {
+  width: 50%;
+  margin: 0 auto;
+  -webkit-animation: welcomeFade 2s;
+          animation: welcomeFade 2s;
+}
+
+.Temp .grid-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+.Temp h1 {
+  -webkit-animation: welcomeFade 2s;
+          animation: welcomeFade 2s;
+  font-size: calc(clamp(1.5rem, 1.29rem + 1.07vw, 2.25rem));
+}
+
+.Temp h3,
+.Temp p {
+  -webkit-animation: welcomeFade 2s;
+          animation: welcomeFade 2s;
+  font-size: calc(clamp(1.25rem, 1.1rem + 0.71vw, 1.75rem));
+  font-weight: 200;
+  margin: 0;
+}
+
+.Temp button {
+  background: transparent;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 0.75rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Temp .sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Temp .sign-up input {
+  border-radius: 10px;
+  outline: none;
+}
+
+.Contact {
+  text-align: center;
+  padding: 1rem;
+  background-color: #2a274b;
+  color: white;
+}
+
+.Contact a {
+  text-decoration: underline;
+  color: white;
+}
+
+.Contact button {
+  margin-top: 1rem;
+  background-color: #2a274b;
+  color: white;
+  padding: 0.375rem 0.75rem;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #5144cd;
+}
+
+.Contact .Contact-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.Contact .Contact-newsletter input {
+  border-radius: 10px;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #5144cd;
+  outline: none;
+}
+
+@media screen and (min-width: 600px) {
+  .about .about-tiles-container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .about .about-tiles-container .about-tiles {
+    margin: 1rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .about .about-tiles-container {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  .Temp {
+    display: -ms-grid;
+    display: grid;
+    text-align: left;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    padding: 0rem 6rem;
+  }
+  .Temp .grid-top {
+    gap: 2rem;
+  }
+  .Temp .grid-top h3,
+  .Temp .grid-top p {
+    max-width: 50ch;
+    margin: 0;
+  }
+  .Temp img {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    width: 15%;
+    margin: 0;
+    padding-top: 0;
+  }
+  .Temp div {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .Temp button {
+    font-size: clamp(1rem, 5vmin, 1.2rem);
+  }
+  .Temp .sign-up {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .Temp .sign-up input {
+    font-size: clamp(1rem, 5vmin, 1.2rem);
+  }
+  .Contact {
+    padding: 4rem 0;
+    font-size: 1.2rem;
+  }
+  .Contact input,
+  .Contact button {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .Contact .Contact-grid {
+    -ms-grid-columns: 0.66fr 0.33fr;
+        grid-template-columns: 0.66fr 0.33fr;
+  }
+  .Contact .Contact-grid .Socials {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .Contact .newsletter-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1rem;
+  }
+}
+
+@-webkit-keyframes welcomeFade {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes welcomeFade {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes welcomeFade2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes welcomeFade2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Temp .welcome-message {
+  -webkit-animation: welcomeFade2 2s;
+          animation: welcomeFade2 2s;
+  color: #42a3ff;
+}
+
+@-webkit-keyframes scrollDown {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  75% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes scrollDown {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  75% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+#scroll-down {
+  color: #42a3ff;
+  position: relative;
+  -webkit-animation: scrollDown 2s infinite;
+          animation: scrollDown 2s infinite;
+}
+/*# sourceMappingURL=App.css.map */
