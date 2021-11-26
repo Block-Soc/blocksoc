@@ -12,7 +12,7 @@ const About = () => {
                         alt='ICON'
                     />
                     <h3>Guest Speakers</h3>
-                    <p>Discussions with industry leaders such as Consensys, Coinbase &amp; BNP Paribas
+                    <p>Discussions with industry professionals in leading companies such as Consensys, Coinbase &amp; BNP Paribas
                     </p>
                 </div>
                 <div className="about-tiles">
@@ -40,7 +40,7 @@ const About = () => {
                         src='/4.png'
                         alt='ICON'
                     />
-                    <h3>Decentralised Application</h3>
+                    <h3>Decentralised Application Projects</h3>
                     <p>Learn about the development and utility of DApps &amp; Web3 projects.
                     </p>
                 </div>
@@ -50,7 +50,7 @@ const About = () => {
                         alt='ICON'
                     />
                     <h3>Smart Contract Hackathon</h3>
-                    <p>Cash prizes, learning &amp; networking opportunities at our hackathon.
+                    <p>Cash prizes &amp; networking opportunities in an active learning environment.
                     </p>
                 </div>
                 <div className="about-tiles">
