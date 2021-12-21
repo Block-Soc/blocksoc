@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 .container {
+    scroll-margin-top: 5rem;
     text-align: center;
     background-color:#f5f5f5;
     padding: 0 1rem;
