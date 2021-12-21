@@ -28,7 +28,7 @@ const Hamburger = ({ styles }) => {
                 {['Home', 'Crypto Asset Evaluation', 'Offerings', 'Positions', 'Contact'].map((text, index) => (
                     text === "Home" ?
                         <ListItem button key={text}>
-                            <a href={`/`}><ListItemText primary={text} href={`/`} key={text} /></a>
+                            <a href={`/#home-section`}><ListItemText primary={text} href={`/`} key={text} /></a>
                         </ListItem> :
                         text === "Positions" ?
                             <ListItem button key={text}>

@@ -19,7 +19,7 @@ const Navbar = () => {
             </Link>
 
             <nav className={styles.NavLinks}>
-                <Link href="/"><a>Home</a></Link>
+                <Link href="/#home-section"><a>Home</a></Link>
                 <Link href='/CEF'><a>Cryptoasset Evaluation</a></Link>
                 <Link href="#offerings-section"><a>Offerings</a></Link>
             </nav>
