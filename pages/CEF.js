@@ -38,7 +38,7 @@ const evaluationforum = () => {
                         assets based on sound principles, including consensus mechanisms, tokenomics and much more...
                     </p>
                     <p>
-                        Applications now open, <a href="https://docs.google.com/forms/d/e/1FAIpQLSdh4DQ0aw68WOWovCXphzq38lTsTpAYAbJPfvAAWCl_U96GCA/viewform?usp=sf_link">apply here</a>.
+                        Applications now open, <a href="https://forms.gle/AtFevPWBD6xz66uF6">apply here</a>.
                     </p>
                 </div>
             </Layout >
