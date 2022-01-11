@@ -17,18 +17,35 @@ const jointheteam = () => {
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
                 <p className={styles.heading}>
-                    The CEF is a research-based forum that seeks to analyse crypto
-                    assets based on sound principles, including consensus mechanisms, tokenomics and much more...
-                </p>
+                    Positions are open to students from all Irish third level institutions. All positions are voluntary and require part-time commitment from January – June 2022. Please email positions@blocksoc.io with any additional questions you may have.</p>
+
+                <p className={styles.heading}>This is an excellent opportunity to gain exposure to the Blockchain and Cryptocurrency space, network with like-minded individuals, develop practical skills and enhance one's CV.</p>
+
+                <h3 className={styles.heading}>BlockSoc is recruiting for the following positions:</h3>
+
                 <div className={styles.roles}>
                     <details>
                         <summary>
                             Treasurer
                         </summary>
                         <div className={styles.content}>
-                            <p>- General Financial Oversight, Financial Planning &amp; Budgeting, Financial Reporting, Banking, Bookkeeping &amp; Record Keeping.</p>
-                            <p>- Prior experience is preferable.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <section>
+                                <p>Responsibilities would include but are not limited to:</p>
+                                <ul>
+                                    <li>General Financial Oversight.</li>
+                                    <li>Financial Planning & Budgeting.</li>
+                                    <li>Financial Reporting, Banking.</li>
+                                    <li>Bookkeeping & Record Keeping.</li>
+                                </ul>
+                            </section>
+                            <section>
+                                <p>Our ideal candidate would have:</p>
+                                <ul>
+                                    <li>A business-related background or relevant experience.</li>
+                                    <li>Experience of financial control and budgeting.</li>
+                                </ul>
+                            </section>
+                            <p><a href="https://forms.gle/BjhMZXNUBC4f3nkq5" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
                     <details>
@@ -36,14 +53,29 @@ const jointheteam = () => {
                             Head of Marketing
                         </summary>
                         <div className={styles.content}>
-                            <p>- Coordination of all marketing, public relations and branding.</p>
-                            <p>- Coordination of Social Media Strategies.</p>
-                            <p>- Management of Social Media Accounts.</p>
-                            <p>- Working with relevant departments & event coordinators to ensure effective promotion.</p>
-                            <p>- Coordinate sponsor requests for promotion with the Head of Sponsorship.</p>
-                            <p>- Coordination of the Graphic Designer, Content Curators, Media Producer, Photographer &amp; Videographer for the production of content.</p>
-                            <p>- Prior experience is preferable.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <section>
+                                <p>Responsibilities would include but are not limited to:</p>
+                                <ul>
+                                    <li>Coordination of all marketing, public relations and branding.</li>
+                                    <li>Coordination of Social Media Strategies and campaigns.</li>
+                                    <li>Growth and management of Social Media Accounts.</li>
+                                    <li>Working with relevant departments & event coordinators to ensure effective promotion.</li>
+                                    <li>Tracking the effectiveness of marketing campaigns and reporting findings to the executive
+                                        team.</li>
+                                    <li>Coordinate sponsor requests for promotion with the Head of Sponsorship.</li>
+                                    <li>Coordinate with BlockSoc Graphic Designers, Content Curators, Media Producer, Photographer &
+                                        Videographer to produce content.</li>
+                                </ul>
+                            </section>
+                            <section>
+                                <p>Our ideal candidate would have:</p>
+                                <ul>
+                                    <li>A creative mind and a high level of business acumen.</li>
+                                    <li>Strong communication coupled with the ability to lead and motivate a team.</li>
+                                    <li>A keen eye for detail and graphic design.</li>
+                                </ul>
+                            </section>
+                            <p><a href="https://forms.gle/CQ8ytyQoUPynQrHS7" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
                     <details>
@@ -51,11 +83,23 @@ const jointheteam = () => {
                             Graphic Designer
                         </summary>
                         <div className={styles.content}>
-                            <p>- Providing graphic design expertise primarily in coordination with the Marketing team but also to other departments of the organisation if required.</p>
-                            <p>- Create informative and attention grabbing social media content.</p>
-                            <p>- Experience with design tools such as Figma or Adobe Xd.</p>
-                            <p>- Prior experience is preferable.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <section>
+                                <p>Responsibilities would include but are not limited to:</p>
+                                <ul>
+                                    <li>Providing graphic design expertise primarily in coordination with the marketing and education teams and other organisation departments if required.</li>
+                                    <li>Ensure final graphics and layouts are visually appealing and on-brand.</li>
+                                </ul>
+                            </section>
+                            <section>
+                                <p>Our ideal candidate would have:</p>
+                                <ul>
+                                    <li>Experience using design software technologies such as Figma, Photoshop, Canva preferred but not required.</li>
+                                    <li>A keen eye for aesthetics and details.</li>
+                                    <li>Excellent communication skills.</li>
+                                    <li>Ability to meet deadlines.</li>
+                                </ul>
+                            </section>
+                            <p><a href="https://forms.gle/DfX7L9fmLEcWTCRN9" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
                     <details>
@@ -63,9 +107,20 @@ const jointheteam = () => {
                             Content Curator
                         </summary>
                         <div className={styles.content}>
-                            <p>- The production &amp; review of all content for all digital platforms. (e.g. social media platforms, website &amp; Blog).</p>
-                            <p>- A high level of english &amp; familiarity with the Blockchain space are desirable.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <section>
+                                <p>Responsibilities would include but are not limited to:</p>
+                                <ul>
+                                    <li>The creation of educational content in Blockchain, Cryptocurrency, Defi, NFT’s, The Metaverse and so on.</li>
+                                    <li>Evaluate and select stories, articles, webpages, MOOCs, images, and videos from a wide variety of online sources.</li>
+                                </ul>
+                            </section>
+                            <section>
+                                <p>Our ideal candidate would have:</p>
+                                <ul>
+                                    <li>A high level of English & familiarity with the Blockchain space is required.</li>
+                                </ul>
+                            </section>
+                            <p><a href="https://forms.gle/b7Jnv81RykajC6wc8" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
                     <details>
@@ -73,9 +128,21 @@ const jointheteam = () => {
                             Media Producer
                         </summary>
                         <div className={styles.content}>
-                            <p>- The production of videos for the purpose of promotion or education.</p>
-                            <p>- Prior experience is desirable.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <section>
+                                <p>Responsibilities would include but are not limited to:</p>
+                                <ul>
+                                    <li>Create and develop multimedia (audio/video) content for education.</li>
+                                    <li>Create and develop multimedia (audio/video) content for external promotional and marketing videos.</li>
+                                </ul>
+                            </section>
+                            <section>
+                                <p>Our ideal candidate would have:</p>
+                                <ul>
+                                    <li>Strong digital literacy and technology skills.</li>
+                                    <li>Ability to work collaboratively and effectively with a multidisciplinary team and/or faculty.</li>
+                                </ul>
+                            </section>
+                            <p><a href="https://forms.gle/yTmYUN4H8hXggiA97" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
                     <details>
@@ -83,9 +150,20 @@ const jointheteam = () => {
                             Photographer
                         </summary>
                         <div className={styles.content}>
-                            <p>- Photography of events hosted by BlockSoc.</p>
-                            <p>- Prior experience is desirable.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <section>
+                                <p>Responsibilities would include but are not limited to:</p>
+                                <ul>
+                                    <li>Photography of events hosted by BlockSoc.</li>
+                                </ul>
+                            </section>
+                            <section>
+                                <p>Our ideal candidate would have:</p>
+                                <ul>
+                                    <li>Strong digital literacy and technology skills.</li>
+                                    <li>Ability to work collaboratively and effectively with a multidisciplinary team and/or faculty.</li>
+                                </ul>
+                            </section>
+                            <p><a href="https://forms.gle/gQtc84z7wUKZnNcR6" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
                     <details>
@@ -93,9 +171,20 @@ const jointheteam = () => {
                             Videographer
                         </summary>
                         <div className={styles.content}>
-                            <p>- The videoing of virtual and F2F events for the purpose of promotion.</p>
-                            <p>- Prior experience is desirable.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <section>
+                                <p>Responsibilities would include but are not limited to:</p>
+                                <ul>
+                                    <li>The videoing of virtual and F2F events for the purpose of promotion.</li>
+                                </ul>
+                            </section>
+                            <section>
+                                <p>Our ideal candidate would have:</p>
+                                <ul>
+                                    <li>Strong digital literacy and technology skills.</li>
+                                    <li>Ability to work collaboratively and effectively with a multidisciplinary team and/or faculty.</li>
+                                </ul>
+                            </section>
+                            <p><a href="https://forms.gle/aHJbShYjw8o5jDbp6" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
                     <details>
@@ -103,9 +192,26 @@ const jointheteam = () => {
                             Head of Sponsorship
                         </summary>
                         <div className={styles.content}>
-                            <p>- Responsible for leading the sponsorship team in attaining sponsorship & catering to the needs of onboarded sponsors.</p>
-                            <p>- Prior experience is desirable.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <section>
+                                <p>Responsibilities would include but are not limited to:</p>
+                                <ul>
+                                    <li>Build and maintain strong external relationships with potential sponsors, corporate partners, and supporters through securing and leading new business meetings and maintaining strong relationships</li>
+                                    <li>Writing high-quality external communications documents, including sponsorship marketing materials as required (working closely with the events and marketing team).</li>
+                                </ul>
+                            </section>
+                            <section>
+                                <p>Our ideal candidate would have:</p>
+                                <ul>
+                                    <li>Demonstrable experience of maximising opportunities from researching prospects to generating meetings and securing income</li>
+                                    <li>Highly self-motivated.</li>
+                                    <li>Excellent influencing and negotiation skills.</li>
+                                    <li>Excellent written and verbal communication skills.</li>
+                                    <li>Excellent organisational skills.</li>
+                                    <li>Attention to detail and the ability to ensure all outputs are of the highest quality.</li>
+                                </ul>
+                            </section>
+
+                            <p><a href="https://forms.gle/HA5RvHGNZ6oXL5qX6" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
                     <details>
@@ -113,9 +219,25 @@ const jointheteam = () => {
                             Sponsorship Officer
                         </summary>
                         <div className={styles.content}>
-                            <p>- The Sponsorship Officer will support the Head of Sponsorship in attaining sponsorship & catering to the needs of onboarded sponsors.</p>
-                            <p>- Prior experience is desirable.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <section>
+                                <p>Responsibilities would include but are not limited to:</p>
+                                <ul>
+                                    <li>Supporting the Head of Sponsorship in attaining sponsorship & catering to the needs of onboarded sponsors.</li>
+                                    <li>Writing high-quality external communications documents, including sponsorship marketing materials as required (working closely with the events and marketing team).</li>
+                                </ul>
+                            </section>
+                            <section>
+                                <p>Our ideal candidate would have:</p>
+                                <ul>
+                                    <li>Demonstrable experience of maximising opportunities from researching prospects to generating meetings and securing income.</li>
+                                    <li>Highly self-motivated.</li>
+                                    <li>Excellent influencing and negotiation skills.</li>
+                                    <li>Excellent written and verbal communication skills.</li>
+                                    <li>Excellent organisational skills.</li>
+                                    <li>Attention to detail and the ability to ensure all outputs are of the highest quality.</li>
+                                </ul>
+                            </section>
+                            <p><a href="https://forms.gle/gwoh7kjy6YrD7wb46" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
                     <details>
@@ -125,7 +247,7 @@ const jointheteam = () => {
                         <div className={styles.content}>
                             <p>- Primarily responsible for the organisation and coordination of BlockSoc’s events.</p>
                             <p>- Prior experience is desirable.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <p><a href="/" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
                     <details>
@@ -133,9 +255,23 @@ const jointheteam = () => {
                             Event Management Officers
                         </summary>
                         <div className={styles.content}>
-                            <p>- Responsible for assisting the Head of Event Management in the organisation and coordination of BlockSoc’s events.</p>
-                            <p>- Prior experience is desirable.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <section>
+                                <p>Responsibilities would include but are not limited to:</p>
+                                <ul>
+                                    <li>Responsible for assisting the Head of Event Management in the organisation and coordination of BlockSoc’s events.</li>
+                                    <li>Responsible for assisting the Head of Event Management in the organisation and coordination of BlockSoc’s events.</li>
+                                </ul>
+                            </section>
+                            <section>
+                                <p>Our ideal candidate would have:</p>
+                                <ul>
+                                    <li>Excellent written and verbal communication skills.</li>
+                                    <li>Excellent organisational skills.</li>
+                                    <li>Strong digital literacy and technology skills.</li>
+                                    <li>Ability to work collaboratively and effectively with a multidisciplinary team and/or faculty.</li>
+                                </ul>
+                            </section>
+                            <p><a href="https://forms.gle/14M2GQewhkYRRf7u9" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
                     <details>
@@ -143,20 +279,35 @@ const jointheteam = () => {
                             Head of Women in Blockchain
                         </summary>
                         <div className={styles.content}>
-                            <p>- The Head of Women in Blockchain will be responsible for promoting & heading our Women in Blockchain initiative. They will be primarily involved in directing educational content &amp; guest speakers for the Women in Blockchain program.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <section>
+                                <p>Responsibilities would include but are not limited to:</p>
+                                <ul>
+                                    <li>Promoting & heading our Women in Blockchain initiative.</li>
+                                    <li>Directing educational content & guest speakers for the Women in Blockchain program.</li>
+                                </ul>
+                            </section>
+                            <section>
+                                <p>Our ideal candidate would have:</p>
+                                <ul>
+                                    <li>A high-level familiarity with the Blockchain (required).</li>
+                                    <li>Strong communication coupled with the ability to lead and motivate a team.</li>
+                                    <li>Excellent organisational skills.</li>
+                                    <li>Strong digital literacy and technology skills.</li>
+                                </ul>
+                            </section>
+                            <p><a href="https://forms.gle/1MpzaH6ZELVimKxn7" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
                     <details>
                         <summary>
-                            Domain Experts *** Need Clairifcation
+                            Blockchain/Crypto Domain Experts
                         </summary>
                         <div className={styles.content}>
                             <p>- Directing educational content concerning their domain.</p>
                             <p>- Running educational workshops concerning their domain.</p>
                             <p>- Acting as an advisor to the Cryptoasset Evaluation Forum regarding their particular domain.</p>
                             <p>- Co-hosting guest speakers from their domain.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdNtmLv-3_tluvo_0hN55lIOZLfuVbHWW8gr11WutGV205HBQ/viewform?usp=sf_link" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
                     <details>
@@ -164,11 +315,10 @@ const jointheteam = () => {
                             Campus Officers
                         </summary>
                         <div className={styles.content}>
-                            <p>- We are expanding our presence across third level institutions in Ireland and are
-                                looking to recruit students from such institutions to assist with this expansion.
-                                We hope to have a campus officer for each third level institution. The campus officer will assist
-                                with all matters concerning BlockSoc’s expansion into their institution.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <p>- We are expanding our presence across third level institutions in Ireland and are looking to recruit students from such institutions to assist with this expansion.</p>
+                            <p>- We hope to have a campus officer for each third level institution.</p>
+                            <p>- The campus officer will assist with all matters concerning BlockSoc’s expansion into their institution.</p>
+                            <p><a href="https://forms.gle/78Ai8BtS9p9s7V71A" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
                     <details>
@@ -177,12 +327,21 @@ const jointheteam = () => {
                         </summary>
                         <div className={styles.content}>
                             <p>- A campus ambassador will be responsible for promoting BlockSoc in their respective institution.</p>
-                            <p><a href="/">Apply Here</a></p>
+                            <p><a href="https://forms.gle/DpdV5BRNrYiYrYwt7" target="_blank">Apply Here</a></p>
                         </div>
                     </details>
 
                 </div>
-            </Layout>
+                <div className={styles.info}>
+                    <p>Applicants can apply for one or some of the positions listed. Applicants who feel they can fulfil a multitude
+                        of roles are encouraged to express this in their application and would be empowered to fulfil as many
+                        functions as they can in our organisation.</p>
+                    <p>e.g. An applicant for the Head of Marketing, who feels that they could also perform the functions of content
+                        curation and graphic design, is a strong applicant and would be encouraged to take on these other two
+                        ancillary Marketing functions.</p>
+
+                </div>
+            </Layout >
         </>
     )
 }
