@@ -242,23 +242,12 @@ const jointheteam = () => {
                     </details>
                     <details>
                         <summary>
-                            Head of Event Management
-                        </summary>
-                        <div className={styles.content}>
-                            <p>- Primarily responsible for the organisation and coordination of BlockSoc’s events.</p>
-                            <p>- Prior experience is desirable.</p>
-                            <p><a href="/" target="_blank">Apply Here</a></p>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
                             Event Management Officers
                         </summary>
                         <div className={styles.content}>
                             <section>
                                 <p>Responsibilities would include but are not limited to:</p>
                                 <ul>
-                                    <li>Responsible for assisting the Head of Event Management in the organisation and coordination of BlockSoc’s events.</li>
                                     <li>Responsible for assisting the Head of Event Management in the organisation and coordination of BlockSoc’s events.</li>
                                 </ul>
                             </section>
