@@ -16,6 +16,8 @@ const jointheteam = () => {
                     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
+                <h2 className={styles.heading}>BlockSoc Committee Applications 2022</h2>
+
                 <p className={styles.heading}>
                     Positions are open to students from all Irish third level institutions. All positions are voluntary and require part-time commitment from January – June 2022. Please email positions@blocksoc.io with any additional questions you may have.</p>
 
