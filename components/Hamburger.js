@@ -48,8 +48,7 @@ const Hamburger = ({ styles }) => {
     );
     return (
         (['right']).map((anchor, index) => (
-            // <div className="Hamburger">
-            <div className={styles} key={index}>
+            <nav className={styles} key={index}>
                 <Button aria-label="hamburger menu" onClick={toggleDrawer(anchor, true)} style={{ minWidth: 'auto' }}><MenuIcon /></Button>
                 <Drawer
                     anchor={anchor}
@@ -58,7 +57,7 @@ const Hamburger = ({ styles }) => {
                 >
                     {list(anchor)}
                 </Drawer>
-            </div>
+            </nav>
         ))
 
 
