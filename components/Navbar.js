@@ -21,15 +21,9 @@ const Navbar = () => {
             <nav className={styles.NavLinks}>
                 <Link href="/#home-section"><a>Home</a></Link>
                 <Link href='/CEF'><a>Cryptoasset Evaluation</a></Link>
-                <Link href="/#offerings-section"><a>Offerings</a></Link>
+                <Link href="/startathon"><a>Blockchain Startathon</a></Link>
+                <Link href="/positions"><a>Positions</a></Link>
             </nav>
-
-            <Link href="/positions">
-                <a className={styles.NavSignUp}>
-                    {/* Sign Up */}
-                    Positions
-                </a>
-            </Link>
 
             <Hamburger styles={styles.Hamburger} />
         </header >
