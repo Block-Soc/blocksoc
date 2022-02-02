@@ -25,7 +25,7 @@ const Hamburger = ({ styles }) => {
             onKeyDown={toggleDrawer(anchor, false)}
         >
             <List>
-                {['Home', 'Crypto Asset Evaluation', 'Offerings', 'Positions', 'Contact'].map((text, index) => (
+                {['Home', 'Crypto Asset Evaluation', 'Positions', 'Contact'].map((text, index) => (
                     text === "Home" ?
                         <ListItem button key={text}>
                             <a href={`/#home-section`}><ListItemText primary={text} href={`/`} key={text} /></a>

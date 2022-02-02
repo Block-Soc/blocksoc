@@ -14,18 +14,18 @@
 }
 @media (min-width: 850px) {
     .layout {
-        padding: 0 6rem;
+        padding: 0 4rem;
     }
 }
 
 
 @media (min-width: 1024px) {
     .layout {
-        padding: 0 6rem;
+        padding: 0 12rem;
     }
 }
 @media (min-width: 1200px) {
     .layout {
-        padding: 0 10rem;
+        padding: 0 12rem;
     }
 }

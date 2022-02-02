@@ -1,94 +1,32 @@
-import Image from 'next/image'
-import Layout from './Layout'
-import Link from 'next/link'
-import styles from '../styles/offerings.module.css'
-
 const Offerings = () => {
     return (
-        <div className={styles.container} id="offerings-section">
-            <div className={styles.description}>
+        <div className="grid md:grid-cols-2 py-8 gap-6 md:gap-14 md:py-16 px-4 sm:px-8 md:px-16 lg:px-48 xl:px-48 bg-stone-400/10 border-0 border-b border-stone-300 border-solid" id="offerings-section">
+
+            <div className="md:px-8 rounded-lg bg-white text-black shadow-md border border-solid border-stone-200 p-4" id='first_offering'>
+                <h3 className="text-2xl text-[#2a274b]">📈 Cryptoasset Evaluation Forum</h3>
+                <p>The CEF seeks to analyse cryptoassets based on their
+                    fundamental use case, core competencies,
+                    ecosystem and financials.
+                </p>
             </div>
-            <div className={styles.offering_grid}>
-                <div className={`${styles.card} ${styles.testing}`} id='first_offering'>
-                    <Image
-                        alt='tile image'
-                        src={'/CEF.svg'}
-                        width={100}
-                        height={50}
-                        layout="responsive"
-                    />
-                    <div className={styles.card_text}>
-                        <h3>Cryptoasset Evaluation Forum</h3>
-                        <p>The CEF seeks to analyse cryptoassets based on their
-                            fundamental use case, core competencies,
-                            ecosystem and financials among others.
-                            {/* As a student analyst, you will have the opportunity to
-                            educate yourself further in the domain of blockchain and cryptoassets. */}
-                        </p>
-                        <br />
-                        <p>Learn more about the process and apply&nbsp;
-                            <Link href='/CEF'>
-                                <a>here</a>
-                            </Link>
-                            .</p>
-                    </div>
-                </div>
-                <div className={styles.card}>
-                    <Image
-                        alt='tile image'
-                        src={'/Dapp.svg'}
-                        width={100}
-                        height={40}
-                        layout="responsive"
-                    />
-                    <div className={styles.card_text}>
-                        <h3>DApp Open Source Project</h3>
-                        <p>Through hands-on involvement, learn about the development and utility of DApps &amp; Web3 projects.</p>
-                    </div>
-                </div>
-                <div className={styles.card}>
-                    <Image
-                        alt='tile image'
-                        src={'/guest_speaker.svg'}
-                        width={100}
-                        height={40}
-                        layout="responsive"
-                    />
-                    <div className={styles.card_text}>
-                        <h3>Guest Speakers</h3>
-                        <p>Discussions with significant figures
-                            &amp; professionals from leading blockchain companies.
-                        </p>
-                    </div>
-                </div>
-                <div className={styles.card}>
-                    <Image
-                        alt='tile image'
-                        src={'/startathon.svg'}
-                        width={100}
-                        height={40}
-                        layout="responsive"
-                    />
-                    <div className={styles.card_text}>
-                        <h3>Blockchain Startathon</h3>
-                        <p>An exceptional opportunity for students to learn about innovation in the domains of Blockchain.</p>
-                    </div>
-                </div>
-                <div className={styles.card}>
-                    <Image
-                        alt='tile image'
-                        src={'/edcontent.svg'}
-                        width={100}
-                        height={40}
-                        layout="responsive"
-                    />
-                    <div className={styles.card_text}>
-                        <h3>Educational Content</h3>
-                        <p>Content will be published and circulated via our socials, website and newsletter.</p>
-                    </div>
-                </div>
+
+            <div className="md:px-8 rounded-lg bg-white text-black shadow-md border border-solid border-stone-200 p-4">
+                <h3 className="text-2xl text-[#2a274b]">💡 Blockchain Startathon</h3>
+                <p>An exceptional opportunity for students to learn about innovation in the domains of Blockchain.</p>
             </div>
-        </div >
+
+            <div className="md:px-8 rounded-lg bg-white text-black shadow-md border border-solid border-stone-200 p-4">
+                <h3 className="text-2xl text-[#2a274b]">👨‍🏫 &nbsp; Guest Speakers</h3>
+                <p>Discussions with significant figures
+                    &amp; professionals from leading blockchain companies.
+                </p>
+            </div>
+
+            <div className="md:px-8 rounded-lg bg-white text-black shadow-md border border-solid border-stone-200 p-4">
+                <h3 className="text-2xl text-[#2a274b]">📚 Educational Content</h3>
+                <p>Content will be published and circulated via our socials, website and newsletter.</p>
+            </div>
+        </div>
     )
 }
 

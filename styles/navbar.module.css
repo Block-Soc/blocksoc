@@ -12,7 +12,7 @@
 }
 
 .NavLinks a {
-    color: #4b4b4b;
+    /* color: #4b4b4b; */
 }
 
 .NavLinks {
@@ -26,19 +26,19 @@
 
 @media (min-width: 600px) {
     .Navbar {
-        padding: 1rem 2rem;
+        padding: 10px 2rem;
     }
 }
 @media (min-width: 769px) {
     .Navbar {
-        padding: 1rem 4rem;
+        padding: 10px 4rem;
     }
 }
 
 
 @media (min-width: 1024px) {
     .Navbar {
-        padding: 1rem 6rem;
+        padding: 10px 6rem;
     }
 
     .NavLinks {
@@ -63,6 +63,6 @@
 
 @media (min-width: 1200px) {
     .Navbar {
-        padding: 1rem 10rem;
+        padding: 10px 10rem;
     }
 }

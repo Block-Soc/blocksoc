@@ -1,44 +1,36 @@
-import { arrayUnion, doc, updateDoc } from "@firebase/firestore";
-import { db } from "../firebase"
-import { useState } from "react"
 import styles from '../styles/contact.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 import Layout from "./Layout";
 
 const Contact = () => {
-    const [newsletterEmail, setNewsletterEmail] = useState("")
-
-    const newsletterSignUpHandler = async () => {
-        await updateDoc(doc(db, "Blocksoc", "newsletter"), { emails: arrayUnion(newsletterEmail) });
-    }
     return (
         <Layout>
-            <div className={styles.container} id="contact-section">
-                <div className={styles.title}><h3>Connect with us!</h3></div>
-                <div className={styles.socials}>
-                    <a href="https://www.instagram.com/blocksoc/" rel="noopener" target='_blank'>
-                        <Image alt="instagram" src={'/instagram.png'} width={35} height={35} />
-                    </a>
-                    <a href="https://www.linkedin.com/company/blocksoc/?viewAsMember=true" rel="noopener" target='_blank'>
-                        <Image alt="linkedin" src={'/linkedin.png'} width={35} height={35} />
-                    </a>
-                    <a href="https://twitter.com/block_soc" rel="noopener" target='_blank'>
-                        <Image alt="twitter" src={'/twitter.png'} width={35} height={35} />
-                    </a>
-                    <a href="https://www.facebook.com/BlockSoc-101816239000113" rel="noopener" target='_blank'>
-                        <Image alt="Facebook" src={'/facebook.png'} width={35} height={35} />
-                    </a>
+            <div className="grid grid-cols-3 md:grid-cols-[.3fr,.3fr,.3fr] py-6 pt-8 pr-4" id="contact-section">
+                <div className="flex flex-col justify-between">
+                    <Link href="/">
+                        <a>
+                            <Image
+                                alt="logo"
+                                width={73}
+                                height={70}
+                                priority={true}
+                                src="/logo.png">
+                            </Image>
+                        </a>
+                    </Link>
+                    <span className="text-blue-900/80">&copy; Blocksoc 2022.</span>
                 </div>
-
-                <p className={styles.email}><Image src='/mail.png' width={25} height={30} />&nbsp;info@blocksoc.io</p>
-
-                <div className={styles.connect}>
-                    <p>Join our Newsletter!</p>
-                    <div className={styles.newsletter_input}>
-                        <input placeholder='Email' value={newsletterEmail} onChange={(e) => setNewsletterEmail(e.target.value)}></input>
-
-                        <button onClick={(e) => { newsletterSignUpHandler(); setNewsletterEmail("") }}>Submit</button>
-                    </div>
+                <div className="flex flex-col items-start">
+                    <span className="underline underline-offset-2">Socials</span>
+                    <a href="https://www.instagram.com/blocksoc/" rel="noopener" target='_blank' className="text-blue-900/80 visited:text-blue-900/80">Instagram</a>
+                    <a href="https://www.linkedin.com/company/blocksoc/" rel="noopener" target='_blank' className="text-blue-900/80 visited:text-blue-900/80">LinkedIn</a>
+                    <a href="https://twitter.com/block_soc" rel="noopener" target='_blank' className="text-blue-900/80 visited:text-blue-900/80">Twitter</a>
+                    <a href="https://www.facebook.com/BlockSoc-101816239000113" rel="noopener" target='_blank' className="text-blue-900/80 visited:text-blue-900/80">Facebook</a>
+                </div>
+                <div className="flex flex-col items-start">
+                    <span className="underline underline-offset-2">Contact</span>
+                    <span className="text-blue-900/80">info@blocksoc.io</span>
                 </div>
             </div >
         </Layout>
