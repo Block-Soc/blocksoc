@@ -21,11 +21,11 @@
 
 @media (min-width: 1024px) {
     .layout {
-        padding: 0 12rem;
+        padding: 0 6rem;
     }
 }
 @media (min-width: 1200px) {
     .layout {
-        padding: 0 12rem;
+        padding: 0 8rem;
     }
 }
