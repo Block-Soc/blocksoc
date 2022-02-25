@@ -1,7 +1,7 @@
-import styles from '../styles/contact.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import Layout from "./Layout";
+
 
 const Contact = () => {
     return (
