@@ -1,5 +1,4 @@
 import Navbar from "../components/Navbar"
-import styles from '../styles/positionpage.module.css'
 import Head from 'next/head'
 import Layout from "../components/Layout"
 
