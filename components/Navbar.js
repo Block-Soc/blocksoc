@@ -1,44 +1,42 @@
-import Link from 'next/link'
 import Image from 'next/image'
-import Hamburger from '../components/Hamburger'
-import styles from '../styles/navbar.module.css'
-import { useRouter } from "next/router";
-
 
 const Navbar = () => {
-
-    const router = useRouter()
-
     return (
-        <header className="flex justify-between items-center p-4 sticky top-0 bg-[#fff] z-50 w-[100%] sm:px-8 py-4 md:px-16 lg:px-48 xl:px-48 border-b border-solid border-[#4b4b4b54] border-0">
-            <Link href="/">
-                <a>
-                    <Image
-                        alt="logo"
-                        width={83}
-                        height={80}
-                        priority={true}
-                        src="/logo.png">
-                    </Image>
+        <header className="flex justify-between items-center py-8 max-w-5xl mx-auto px-4">
+            <a href="/" className="md:hidden text-[0px]">
+                <Image
+                    alt="mobile logo"
+                    width={70}
+                    height={63}
+                    priority={true}
+                    src="/mobile_logo.png"
+                >
+                </Image>
+            </a>
+            <a href="/" className="hidden md:inline text-[0px]">
+                <Image
+                    alt="logo"
+                    width={300}
+                    height={59}
+                    priority={true}
+                    src="/logo.png"
+                >
+                </Image>
+            </a>
+            <nav className="flex items-center gap-x-1 md:gap-x-4">
+                <a href="https://discord.gg/YRKHzc7ymb" target="_blank" rel="noopener noreferrer" className="flex gap-x-2 hover:no-underline bg-indigo-600 border-2 border-indigo-600 p-2 px-4 rounded-md hover:no-underlinehover:bg-zinc-700">
+                    <span className="text-white font-medium">
+                        Discord
+                    </span>
+                    <Image src='/discord.svg' alt="discord logo" className="text-white" width='20' height='20' />
                 </a>
-            </Link>
-            <nav className={styles.NavLinks}>
-                <Link href='/'>
-                    <a className={router.pathname === "/" ? "underline underline-offset-4 text-blue-500" : "text-[#4b4b4b]"}>Home</a>
-                </Link>
-                <Link href='/CEF'>
-                    <a className={router.pathname === "/CEF" ? "underline underline-offset-4 text-blue-500" : "text-[#4b4b4b]"}>Cryptoasset Evaluation</a>
-                </Link>
-                {/* <Link href="/startathon">
-                    <a className={router.pathname === "/startathon" ? "underline underline-offset-4 text-blue-500" : "text-[#4b4b4b]"}>Blockchain Startathon</a>
-                </Link> */}
-                <Link href="/positions">
-                    <a className={router.pathname === "/positions" ? "underline underline-offset-4 text-blue-500" : "text-[#4b4b4b]"}>Positions</a>
-                </Link>
+                <a target="_blank" href="/manifesto.pdf" rel="noopener noreferrer" className="hidden md:inline border-2 p-2 px-4 rounded border-indigo-600">
+                    <span className="text-white font-medium">
+                        Manifesto <span className="pl-1">📜</span>
+                    </span>
+                </a>
             </nav>
-
-            <Hamburger styles={styles.Hamburger} />
-        </header >
+        </header>
     )
 }
 
