@@ -7,7 +7,7 @@ const Navbar = () => {
                 <Image
                     alt="mobile logo"
                     width={70}
-                    height={63}
+                    height={77}
                     priority={true}
                     src="/mobile_logo.png"
                 >
@@ -19,7 +19,7 @@ const Navbar = () => {
                     width={300}
                     height={59}
                     priority={true}
-                    src="/logo.png"
+                    src="/logo204.png"
                 >
                 </Image>
             </a>
