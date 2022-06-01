@@ -8,7 +8,7 @@ import HorizontalTimeline from '../components/HorizontalTimeline'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>BlocksocDAO</title>
         <meta name="google-site-verification" content="6ScdAOOBeybqZCJ11P1i-70LolkGwkbrgenM2RrtJLY" />
@@ -37,6 +37,6 @@ export default function Home() {
         <HorizontalTimeline />
       </main>
       <Footer />
-    </div>
+    </>
   )
 }
