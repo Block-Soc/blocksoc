@@ -8,25 +8,16 @@
   }
 }
 
-@font-face {
-  font-family: "Inter";
-  font-weight: 100 900;
-  font-style: normal;
-  src: url("/fonts/Inter.var.woff2") format("woff2");
-  font-display: optional;
-}
-
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   scroll-behavior: smooth;
   color: #111;
-  background-color:#201f1f;
-  
+  background-color: #201f1f;
 }
 
 * {
