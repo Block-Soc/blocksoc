@@ -27,8 +27,8 @@ const Footer = () => {
                 <div className='text-sm self-end'>© Blocksoc 2022</div>
                 <div className="flex flex-col md:flex-row justify-end gap-y-10 md:gap-x-20">
                     <div className="flex flex-col">
-                        <h3 className="font-bold text-white">Connect</h3>
-                        <div className="space-y-2">
+                        <h3 className="font-bold text-white mb-1">Connect</h3>
+                        <div className="flex flex-col gap-2">
                             {socials.map(({ text, link }) => {
                                 return (
                                     <SocialLink key={text} text={text} link={link} />
@@ -37,8 +37,8 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="flex flex-col">
-                        <h3 className="font-bold text-white pb-2">Contact Us</h3>
-                        <div className='gap-1 text-sm'>
+                        <h3 className="font-bold text-white mb-1">Contact Us</h3>
+                        <div className='text-sm'>
                             <a href='mailto:info@blocksoc.io'>
                                 <div className='flex items-center gap-2'>
                                     <p>info@blocksoc.io</p>
@@ -47,8 +47,8 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="flex flex-col">
-                        <h3 className="font-bold text-white pb-2">About Us</h3>
-                        <div className="flex items-center text-sm">
+                        <h3 className="font-bold text-white mb-1">About Us</h3>
+                        <div className="flex items-center gap-2 text-sm">
                             <a href="/manifesto.pdf" rel="noopener noreferrer" target="_blank">Manifesto</a>
                             {arrowRedirect}
                         </div>
