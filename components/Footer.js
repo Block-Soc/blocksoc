@@ -48,7 +48,7 @@ const Footer = () => {
                     </div>
                     <div className="flex flex-col">
                         <h3 className="font-bold text-white mb-1">About Us</h3>
-                        <div className="flex items-center gap-2 text-sm">
+                        <div className="flex items-center gap-1 text-sm">
                             <a href="/manifesto.pdf" rel="noopener noreferrer" target="_blank">Manifesto</a>
                             {arrowRedirect}
                         </div>
